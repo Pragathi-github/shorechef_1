@@ -1,0 +1,21 @@
+Recipe Title: Neer Dosa
+ImageURL: https://images.pexels.com/photos/8963574/pexels-photo-8963574.jpeg
+Region: Udupi
+Category: Breakfast
+Cooking Time: 15 minutes
+Difficulty: Easy
+Diet Type: Vegetarian / Gluten-Free
+
+Ingredients:
+- 1 cup raw rice (soaked)
+- Salt
+- Water
+- Oil for greasing pan
+
+Instructions:
+1. Soak rice for 4–6 hours and grind into a thin batter.
+2. Add salt and adjust consistency.
+3. Pour on hot tawa and swirl to spread.
+4. Cook without flipping. Serve hot with chutney.
+
+Tags: light, breakfast, traditional, quick
