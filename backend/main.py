@@ -9,6 +9,10 @@ from dotenv import load_dotenv
 import google.generativeai as genai
 import chromadb
 from chromadb.utils import embedding_functions
+from typing import List
+from typing import Optional
+from fastapi import Query
+
 
 # --- Configuration ---
 load_dotenv()
@@ -223,6 +227,31 @@ ShoreChef's Answer (in {response_language}):
 """
 
 # --- API Endpoints ---
+# Add this new endpoint to your main.py file
+
+@app.get("/recipes/categories", response_model=List[str])
+async def get_all_categories():
+    """Returns a list of all unique recipe categories."""
+    if not collection:
+        raise HTTPException(status_code=503, detail="Database not available.")
+    try:
+        # Get all metadata from the collection
+        metadatas = collection.get(include=["metadatas"])['metadatas']
+        if not metadatas:
+            return []
+        
+        # Extract unique categories
+        unique_categories = set()
+        for meta in metadatas:
+            if meta.get('category'):
+                # Handle categories that might have multiple parts like "Snack / Appetizer"
+                categories = [c.strip() for c in meta['category'].split('/')]
+                unique_categories.update(categories)
+                
+        return sorted(list(unique_categories))
+    except Exception as e:
+        logger.error(f"Error fetching categories: {e}")
+        raise HTTPException(status_code=500, detail="Could not fetch categories.")
 @app.get("/recipes", response_model=list[Recipe])
 async def get_all_recipes():
     if not collection: raise HTTPException(status_code=503, detail="Database not available.")
@@ -230,6 +259,33 @@ async def get_all_recipes():
         results = collection.get(include=["metadatas"])
         if not results or not results.get('ids'): return []
         return [Recipe(id=results['ids'][i], **results['metadatas'][i]) for i in range(len(results['ids']))]
+    except Exception as e:
+        logger.error(f"Error fetching all recipes: {e}")
+        raise HTTPException(status_code=500, detail="Could not fetch recipes.")
+@app.get("/recipes", response_model=list[Recipe])
+async def get_all_recipes(category: Optional[str] = Query(None)):
+    """Returns a list of all recipes, optionally filtered by category."""
+    if not collection:
+        raise HTTPException(status_code=503, detail="Database not available.")
+    try:
+        results = collection.get(include=["metadatas"])
+        if not results or not results.get('ids'):
+            return []
+        
+        recipe_list = [
+            Recipe(id=results['ids'][i], **results['metadatas'][i])
+            for i in range(len(results['ids']))
+        ]
+
+        # If a category is provided, filter the results
+        if category:
+            filtered_list = [
+                recipe for recipe in recipe_list 
+                if recipe.category and category.lower() in recipe.category.lower()
+            ]
+            return filtered_list
+            
+        return recipe_list
     except Exception as e:
         logger.error(f"Error fetching all recipes: {e}")
         raise HTTPException(status_code=500, detail="Could not fetch recipes.")
