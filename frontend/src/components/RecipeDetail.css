@@ -1,0 +1,51 @@
+.main-content {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.recipe-info-panel,
+.cooking-assistant-panel {
+  padding: 20px;
+  overflow-y: auto;
+  height: calc(100vh - 75px);
+}
+
+.recipe-info-panel {
+  flex: 1.2;
+  border-right: 1px solid #eee;
+}
+
+.cooking-assistant-panel {
+  flex: 1;
+}
+
+.recipe-info-panel h2 {
+  font-family: var(--font-serif, "Georgia");
+  font-size: 2.8rem;
+  margin-top: 0;
+}
+
+.recipe-image-large {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+
+.recipe-info-panel h3 {
+  font-family: var(--font-serif, "Georgia");
+  border-bottom: 2px solid var(--primary-color, #ff6347);
+  padding-bottom: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.recipe-info-panel pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.7;
+}

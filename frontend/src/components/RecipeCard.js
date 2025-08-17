@@ -1,23 +1,30 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-function RecipeCard({ recipe }) {
-  const fallbackImage = `https://via.placeholder.com/600x400.png?text=${encodeURIComponent(recipe.title)}`;
-  
+const RecipeCard = ({ recipe }) => {
+  const fallbackImage = `https://dummyimage.com/400x300/e0e0e0/555.png&text=${encodeURIComponent(
+    recipe.title
+  )}`;
+  const tags = recipe.tags
+    ? recipe.tags
+        .split(",")
+        .map((tag) => tag.trim())
+        .join(", ")
+    : "Delicious recipe";
+
   return (
-    <Link to={`/recipes/${recipe.id}`} className="recipe-card">
-      <img 
-        src={recipe.image_url || fallbackImage} 
-        alt={recipe.title} 
-        className="recipe-card-image" 
-        onError={(e) => { e.target.onerror = null; e.target.src=fallbackImage; }}
+    <Link to={`/recipe/${recipe.id}`} className="recipe-card">
+      <img
+        src={recipe.image_url || fallbackImage}
+        alt={recipe.title}
+        className="recipe-card-image"
       />
       <div className="recipe-card-content">
         <h3>{recipe.title}</h3>
-        <p>{recipe.tags || recipe.category || 'A delicious coastal dish'}</p>
+        <p>{tags}</p>
       </div>
     </Link>
   );
-}
+};
 
 export default RecipeCard;

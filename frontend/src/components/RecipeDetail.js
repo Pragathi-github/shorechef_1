@@ -1,66 +1,81 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
-import { useParams } from 'react-router-dom';
+import React, { useState, useEffect } from "react";
+import { useParams, Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+import Chatbot from "./Chatbot";
+import "./RecipeDetail.css";
 
-const API_URL = 'http://127.0.0.1:8000';
+const RecipeDetail = () => {
+  const { recipeId } = useParams();
+  const [recipe, setRecipe] = useState(null);
+  const [error, setError] = useState(null);
+  const { t, i18n } = useTranslation();
 
-function RecipeDetail() {
-    const [recipe, setRecipe] = useState(null);
-    const [loading, setLoading] = useState(true);
-    const { recipeId } = useParams();
+  useEffect(() => {
+    const fetchRecipe = async () => {
+      setRecipe(null);
+      setError(null);
+      try {
+        const response = await fetch(
+          `http://127.0.0.1:8000/recipes/${recipeId}?lang=${i18n.language}`
+        );
+        if (!response.ok) throw new Error("Network response was not ok");
+        const data = await response.json();
+        setRecipe(data);
+      } catch (err) {
+        setError(err.message);
+      }
+    };
+    fetchRecipe();
+  }, [recipeId, i18n.language]);
 
-    useEffect(() => {
-        axios.get(`${API_URL}/recipes/${recipeId}`)
-            .then(response => {
-                setRecipe(response.data);
-                setLoading(false);
-            })
-            .catch(err => { console.error(err); setLoading(false); });
-    }, [recipeId]);
-
-    if (loading) return <div className="loading">Loading recipe...</div>;
-    if (!recipe) return <div className="error">Recipe not found.</div>;
-
-    const fallbackImage = `https://dummyimage.com/600x400/856c54/fff.png&text=${encodeURIComponent(recipe.title)}`;
+  const renderContent = () => {
+    if (error) return <div className="error">Error: {error}</div>;
+    if (!recipe) return <div className="loading">Loading...</div>;
 
     return (
-        <div className="recipe-detail">
-            <div className="recipe-detail-header">
-                <img
-                    src={recipe.image_url || fallbackImage}
-                    alt={recipe.title}
-                    className="recipe-detail-image"
-                />
-                <div className="recipe-detail-intro">
-                    <h1>{recipe.title}</h1>
-                    <div className="recipe-detail-tags">
-                        {recipe.tags && recipe.tags.split(',').map(tag => (
-                            <span key={tag}>{tag.trim()}</span>
-                        ))}
-                    </div>
-                </div>
-            </div>
+      <main className="main-content">
+        <div className="recipe-info-panel">
+          <h2>{recipe.title}</h2>
+          <img
+            src={recipe.image_url}
+            alt={recipe.title}
+            className="recipe-image-large"
+          />
+          <h3>{t("Ingredients")}</h3>
+          <pre>{recipe.ingredients}</pre>
+          <h3>{t("Instructions")}</h3>
+          <pre>{recipe.instructions}</pre>
 
-            <div className="recipe-body">
-                <div className="ingredients-section">
-                    <h3>Ingredients</h3>
-                    <ul>
-                        {recipe.ingredients && recipe.ingredients.split('\n').map((item, index) => (
-                            <li key={index}>{item.replace(/[-*]/g, '').trim()}</li>
-                        ))}
-                    </ul>
-                </div>
-                <div className="instructions-section">
-                    <h3>Instructions</h3>
-                    <ol>
-                        {recipe.instructions && recipe.instructions.split('\n').map((step, index) => (
-                            <li key={index}>{step.replace(/^\d+\.\s*/, '').trim()}</li>
-                        ))}
-                    </ol>
-                </div>
-            </div>
+          {/* --- THIS IS THE NEW SECTION --- */}
+          {/* It only displays if nutrition data exists for the recipe */}
+          {recipe.nutrition && (
+            <>
+              <h3>{t("Nutrition")}</h3>
+              <pre>{recipe.nutrition}</pre>
+            </>
+          )}
         </div>
+
+        <div className="cooking-assistant-panel">
+          <Chatbot
+            recipeTitle={recipe.title}
+            recipeInstructions={recipe.instructions}
+          />
+        </div>
+      </main>
     );
-}
+  };
+
+  return (
+    <div className="recipe-detail-page">
+      <header className="app-header">
+        <h1>
+          <Link to="/">{t("ShoreChef")}</Link>
+        </h1>
+      </header>
+      {renderContent()}
+    </div>
+  );
+};
 
 export default RecipeDetail;

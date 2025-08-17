@@ -20,6 +20,16 @@ Instructions:
 3. Pour on hot tawa and swirl to spread.
 4. Cook without flipping. Serve hot with chutney.
 
+Nutrition: 
+Calories: 140kcal 
+Carbohydrates: 28g  
+Protein: 3g  
+Fat: 1g 
+Saturated Fat: 0g 
+Sodium: 250mg 
+Fiber: 1g 
+
+
 Tags: light, breakfast, traditional, quick
 ---------------------------------------------
 Recipe Title: Appam
@@ -53,7 +63,7 @@ Instructions:
 Tags: fermented, soft center, lacy edges, traditional, breakfast, gluten-free
 ---------------------------------------------
 Recipe Title: Golibaje
-ImageURL: 
+ImageURL: https://1.bp.blogspot.com/-R1-bGHL3ij0/VVxzYxyEiEI/AAAAAAAAUck/4sjhax-B0Y0/s1600/GoLi%2BBaje%2B%25284%2529%2B-%2B1.jpg
 YouTubeURL: 
 Region: Coastal Karnataka
 Category: Snack / Appetizer
@@ -89,7 +99,7 @@ Instructions:
 Tags: crispy, fritters, snack, vegetarian, coastal, deep-fried
 ---------------------------------------------
 Recipe Title: Menthe Idli
-ImageURL: 
+ImageURL: https://i.ytimg.com/vi/-83HOG4G1oA/maxresdefault.jpg
 YouTubeURL: 
 Region: Coastal Karnataka / South India
 Category: Breakfast / Main Dish
@@ -122,7 +132,7 @@ Instructions:
 Tags: fermented, soft, gluten-free, breakfast, traditional, South Indian
 ---------------------------------------------
 Recipe Title: Chicken Ghee Roast
-ImageURL: 
+ImageURL: https://www.india.com/wp-content/uploads/2020/09/CKDR35-CHICKEN-GHEE-ROAST.png
 YouTubeURL: 
 Region: Coastal Karnataka
 Category: Main Dish
@@ -161,7 +171,7 @@ Instructions:
 Tags: spicy, ghee-infused, coastal, chicken, non-vegetarian, flavorful
 ---------------------------------------------
 Recipe Title: Thambli
-ImageURL: 
+ImageURL: https://www.crazymasalafood.com/wp-content/images/2024/01/thambuli-696x435.jpg
 YouTubeURL: 
 Region: Coastal Karnataka
 Category: Side Dish / Soup
@@ -194,7 +204,7 @@ Instructions:
 Tags: refreshing, coconut-based, spicy, yogurt-based, side dish, gluten-free
 ---------------------------------------------
 Recipe Title: Pundi
-ImageURL: 
+ImageURL: https://vanitascorner.com/wp-content/uploads/2021/06/Pundi.jpg
 YouTubeURL: 
 Region: Coastal Karnataka
 Category: Breakfast / Main Dish
@@ -226,8 +236,8 @@ Instructions:
 
 Tags: steamed, rice flour, coastal, breakfast, gluten-free, traditional
 ---------------------------------------------
-Recipe Title: Gujje Kadubu
-ImageURL: 
+Recipe Title: Halsina Hannina Kadubu 
+ImageURL: https://i.ytimg.com/vi/q071mrzjD3U/maxresdefault.jpg
 YouTubeURL: 
 Region: Coastal Karnataka
 Category: Breakfast / Snack / Festival Dish
@@ -259,7 +269,7 @@ Instructions:
 Tags: steamed, jackfruit, traditional, festival dish, coastal, gluten-free
 ---------------------------------------------
 Recipe Title: Ellu Unde
-ImageURL: 
+ImageURL: https://i2.wp.com/foodofinterest.com/wp-content/uploads/2018/08/YelluChigli-1200x804.jpg
 YouTubeURL: 
 Region: Karnataka / Coastal South India
 Category: Sweet / Festival Dish
@@ -288,7 +298,7 @@ Instructions:
 Tags: sweet, traditional, sesame, jaggery, festival, gluten-free, Sankranti
 ---------------------------------------------
 Recipe Title: Kotte Kadubu
-ImageURL: 
+ImageURL: https://www.awesomecuisine.com/wp-content/uploads/2019/01/mangalore-idli-768x576.jpg
 YouTubeURL: 
 Region: Coastal Karnataka / Udupi
 Category: Breakfast / Festival Dish
@@ -319,7 +329,7 @@ Instructions:
 Tags: steamed, jackfruit leaf, idli variant, traditional, festival, breakfast, gluten-free
 ---------------------------------------------
 Recipe Title: Masala Vada (Chattambade)
-ImageURL: 
+ImageURL: https://i.ytimg.com/vi/WqcC_Ihz7Eg/maxresdefault.jpg
 YouTubeURL: 
 Region: Karnataka / South India
 Category: Snack / Tea-time
@@ -355,7 +365,7 @@ Instructions:
 Tags: crispy, deep-fried, lentil-based, traditional, snack, gluten-free
 ---------------------------------------------
 Recipe Title: Thambittu
-ImageURL: 
+ImageURL: https://www.indianhealthyrecipes.com/wp-content/uploads/2018/09/thambittu-recipe.jpg
 YouTubeURL: 
 Region: Karnataka
 Category: Sweet / Festival Dish
@@ -390,7 +400,7 @@ Instructions:
 Tags: sweet, traditional, jaggery, festival, rice flour, no baking, Karnataka
 ---------------------------------------------
 Recipe Title: Marwai Pundi
-ImageURL: 
+ImageURL: https://i.ytimg.com/vi/mUPBY1S2mqY/maxresdefault.jpg
 YouTubeURL: 
 Region: Coastal Karnataka (Tulu Nadu)
 Category: Breakfast / Main Dish
@@ -444,7 +454,7 @@ To serve:
 Tags: traditional, coastal, clams, steamed dumplings, spicy, non-vegetarian, gluten-free
 ---------------------------------------------
 Recipe Title: Fish Pulimunchi
-ImageURL: 
+ImageURL: https://i.pinimg.com/originals/66/0f/0d/660f0d478da437a89d91925e4fc79067.jpg
 YouTubeURL: 
 Region: Coastal Karnataka (Tulu Nadu / Mangaluru)
 Category: Main Dish / Seafood
@@ -488,7 +498,7 @@ Instructions:
 Tags: tangy, spicy, fish curry, traditional, coastal, gluten-free, tamarind-based
 ---------------------------------------------
 Recipe Title: Pathrode
-ImageURL: 
+ImageURL: https://i.ytimg.com/vi/Q-M1ZUj65Wo/maxresdefault.jpg
 YouTubeURL: 
 Region: Coastal Karnataka (Tulu Nadu / Udupi / Mangaluru)
 Category: Breakfast / Snack / Main Dish
@@ -530,7 +540,7 @@ To serve:
 Tags: steamed, traditional, colocasia, rice-based, coastal, gluten-free, vegetarian
 ---------------------------------------------
 Recipe Title: Patholi
-ImageURL: 
+ImageURL: https://www.tastingtable.com/img/gallery/18-must-try-indian-mithai/patholi-1670865983.jpg 
 YouTubeURL: 
 Region: Coastal Karnataka / Konkan
 Category: Sweet / Festival Dish
@@ -1873,8 +1883,8 @@ Instructions:
 Tags: dessert, banana, coconut, rasayana, coastal, vegetarian
 ------------------------------------------------------------
 Recipe Title: Brinjal Fry
-ImageURL: 
-YouTubeURL: 
+ImageURL: https://tse1.mm.bing.net/th/id/OIP.nzo6r7_-0PG03tQXoZ-8iwHaFR?r=0&rs=1&pid=ImgDetMain&o=7&rm=3
+YouTubeURL: https://youtu.be/lCEvQ6vfsP0?si=MixHzbMTWxyUl_fG
 Region: Coastal Karnataka
 Category: Side Dish
 Cooking Time: 20 minutes
@@ -1909,8 +1919,8 @@ Instructions:
 Tags: brinjal, fry, vegetarian, coastal, side dish
 ------------------------------------------------------------
 Recipe Title: Dal Tove
-ImageURL: 
-YouTubeURL: 
+ImageURL: https://www.topindianrecipes.in/files/2020/05/Dal-Tove-Recipe.jpg
+YouTubeURL: https://youtu.be/olHf7juKFZY?si=laPwsBSyFA_0F5fe
 Region: Coastal Karnataka
 Category: Main Dish
 Cooking Time: 30 minutes
@@ -1954,8 +1964,8 @@ Instructions:
 Tags: dal, rice, vegetarian, coastal, main dish, tove
 ------------------------------------------------------------
 Recipe Title: Gulla Bolu Koddel
-ImageURL: 
-YouTubeURL: 
+ImageURL: https://th.bing.com/th/id/R.5940bde2e53638f75bfa47a2b3619b5b?rik=OdXrCohr%2fIidZQ&riu=http%3a%2f%2fhebbarskitchen.com%2fwp-content%2fuploads%2f2016%2f06%2fgulla-bolu-koddel-recipe-gulla-bolu-huli-eggplant-sambar-3-1024x683.jpeg&ehk=lIg%2f2oyL6VFWaw6O3Z87%2bDwntMc0owJ%2fY%2beShzG7pbg%3d&risl=&pid=ImgRaw&r=0
+YouTubeURL: https://youtu.be/udIR0Tyumb8?si=iVGDQna6rkrkWtdG
 Region: Coastal Karnataka
 Category: Main Dish
 Cooking Time: 30 minutes
@@ -1992,8 +2002,8 @@ Instructions:
 Tags: brinjal, curry, coconut, vegetarian, coastal, main dish
 ------------------------------------------------------------
 Recipe Title: Menthe Thambli
-ImageURL: 
-YouTubeURL: 
+ImageURL: https://aahaaramonline.com/wp-content/uploads/2024/02/Menthe_Tambli.jpg
+YouTubeURL: https://youtu.be/61l05wPN9B4?si=pbgVXndafXJ19j76
 Region: Coastal Karnataka
 Category: Side Dish
 Cooking Time: 10 minutes
@@ -2026,8 +2036,8 @@ Instructions:
 Tags: yogurt, fenugreek, thambli, vegetarian, coastal, refreshing
 ------------------------------------------------------------
 Recipe Title: Sweet Potato Pakoda
-ImageURL: 
-YouTubeURL: 
+ImageURL: https://www.blendwithspices.com/wp-content/uploads/2020/07/sweetpotatopakora.jpg
+YouTubeURL: https://youtu.be/oE038q2ZZ0o?si=D_CDwt9ZK2AiaGFC
 Region: Coastal Karnataka
 Category: Snack
 Cooking Time: 20 minutes
@@ -2062,8 +2072,8 @@ Instructions:
 Tags: snack, sweet potato, pakoda, vegetarian, coastal, crispy
 ------------------------------------------------------------
 Recipe Title: Vada
-ImageURL: 
-YouTubeURL: 
+ImageURL: https://c.ndtvimg.com/2023-09/u113o4r_medu-vada_625x300_06_September_23.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=675
+YouTubeURL: https://youtu.be/syNk5wvhhvE?si=SiO7waPOJS-xT9C6
 Region: Coastal Karnataka
 Category: Snack
 Cooking Time: 30 minutes
@@ -2097,8 +2107,8 @@ Instructions:
 Tags: snack, vada, crispy, vegetarian, coastal
 ------------------------------------------------------------
 Recipe Title: Idiyappam | Nool Puttu
-ImageURL: 
-YouTubeURL: 
+ImageURL: https://tse2.mm.bing.net/th/id/OIP.nVRLzy49rY4W4hQ_6gtTpAHaGg?r=0&rs=1&pid=ImgDetMain&o=7&rm=3
+YouTubeURL: https://youtu.be/6hSpONQIfAY?si=WIhRLqqih2wTk8Rn
 Region: Kerala / South Indian
 Category: Breakfast / Snacks
 Cooking Time: 20 minutes
@@ -2144,8 +2154,8 @@ Instructions:
 Tags: string hoppers, nool puttu, soft, breakfast, gluten-free, vegan
 ------------------------------------------------------------
 Recipe Title: Valval | Konkani Curry
-ImageURL: 
-YouTubeURL: 
+ImageURL: https://cookneatofficial.com/wp-content/uploads/2018/01/1-3.jpg
+YouTubeURL: https://youtu.be/kFYWqeLCh4k?si=9J6fs27FN4dQsJLH
 Region: Karnataka (Konkani)
 Category: Side Dish
 Cooking Time: 35 minutes
@@ -2182,8 +2192,8 @@ Instructions:
 Tags: Konkani, creamy, coconut, mixed vegetable, traditional, healthy
 ------------------------------------------------------------
 Recipe Title: Menaskai | Capsicum Sweet and Sour Gravy
-ImageURL: 
-YouTubeURL: 
+ImageURL: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9LA-4GqEOpgZji6dk0Ph-EBW05JXOAzVPz5m1MecOUKd6HxPXkpFcjCUzX1vGgJDRPubzJlYATidfONmPQDDqKyrxlhwz_piCqp26_UuhxbtetredfbGhO6lBCftBrDlz8lcb9usJbzw/s2048/IMG_7680.jpeg
+YouTubeURL: https://youtu.be/eYzwpZf3PAs?si=iVEMPk2Ebt8cxXDt
 Region: Udupi / Karavali, Karnataka
 Category: Gravy / Main Dish
 Cooking Time: 30 minutes
@@ -2242,8 +2252,8 @@ Tags: sweet, sour, spicy, capsicum, Udupi, traditional, gravy, jaggery, tamarind
 ------------------------------------------------------------
 
 Recipe Title: Broken Wheat Payasam / Broken Wheat Kheer / Godi Kadi Payasa
-ImageURL: 
-YouTubeURL: 
+ImageURL: https://farm3.staticflickr.com/2946/15409164782_f0ba4b105f_b.jpg
+YouTubeURL: https://youtu.be/kDXHPb4j0pA?si=shaM5f_WA1cnphzG
 Region: Karnataka
 Category: Dessert / Sweet
 Cooking Time: 40 minutes
@@ -2276,8 +2286,8 @@ Instructions:
 Tags: kheer, payasam, broken wheat, jaggery, coconut milk, traditional, sweet
 ------------------------------------------------------------
 Recipe Title: Kosambari Recipe | Kosambari Salad | Moong Dal Salad
-ImageURL: 
-YouTubeURL: 
+ImageURL: https://1.bp.blogspot.com/-Ifah2t5BE1s/U1e-zC6qusI/AAAAAAAABCc/3WH-lDYwXgg/s1600/Kosambari+fi.jpg
+YouTubeURL: https://youtu.be/cvIbGm6_T38?si=Q8JMyCsbCudv_DjI
 Region: Karnataka / South Indian
 Category: Side Dish
 Cooking Time: 15 minutes

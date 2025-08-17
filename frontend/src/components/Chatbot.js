@@ -1,152 +1,121 @@
-import React, { useState, useEffect, useRef } from 'react';
-import axios from 'axios';
+import React, { useState, useEffect, useRef } from "react";
+import { useTranslation } from "react-i18next";
+import SpeechRecognition, {
+  useSpeechRecognition,
+} from "react-speech-recognition";
+import "./Chatbot.css";
 
-const API_URL = 'http://127.0.0.1:8000';
+const Chatbot = ({ recipeTitle, recipeInstructions }) => {
+  const { t, i18n } = useTranslation();
+  const [messages, setMessages] = useState([]);
+  const [userInput, setUserInput] = useState("");
+  const [context, setContext] = useState(null);
+  const {
+    transcript,
+    listening,
+    resetTranscript,
+    browserSupportsSpeechRecognition,
+  } = useSpeechRecognition();
+  const messagesEndRef = useRef(null);
 
-// Access the browser's Speech Recognition API
-const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
-const recognition = SpeechRecognition ? new SpeechRecognition() : null;
+  useEffect(() => {
+    setMessages([{ sender: "bot", text: t("Welcome Assistant") }]);
+    setContext({
+      recipe_title: recipeTitle,
+      instructions: recipeInstructions,
+      current_step: 0,
+    });
+  }, [t, recipeTitle, recipeInstructions]);
 
-if (recognition) {
-    recognition.continuous = false;
-    recognition.lang = 'en-US'; // You can change this for other languages if needed
-}
+  useEffect(() => {
+    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+  }, [messages]);
 
-function Chatbot({ recipeTitle, recipeInstructions }) {
-    const [messages, setMessages] = useState([]);
-    const [input, setInput] = useState('start');
-    const [language, setLanguage] = useState('English');
-    const [isSpeaking, setIsSpeaking] = useState(false);
-    const [isListening, setIsListening] = useState(false); // State to track microphone
-    const [conversationContext, setConversationContext] = useState(null);
-    const messagesEndRef = useRef(null);
+  useEffect(() => {
+    if (transcript) setUserInput(transcript);
+  }, [transcript]);
 
-    useEffect(() => {
-        setMessages([{ sender: 'bot', text: `Hi! I'm here to help you cook ${recipeTitle}. Type "start" or click the mic and say "next".` }]);
-        setConversationContext({
-            recipe_title: recipeTitle,
-            instructions: recipeInstructions,
-            current_step: 0
-        });
-    }, [recipeTitle, recipeInstructions]);
+  const handleSendMessage = async (e) => {
+    e.preventDefault();
+    if (!userInput.trim() || !context) return;
 
-    const scrollToBottom = () => {
-        messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
-    };
+    const newMessages = [...messages, { sender: "user", text: userInput }];
+    setMessages(newMessages);
+    const messageToSend = userInput;
+    setUserInput("");
+    resetTranscript();
 
-    useEffect(scrollToBottom, [messages]);
-    
-    const toggleSpeech = (textToSpeak) => {
-        if (isSpeaking) {
-            window.speechSynthesis.cancel();
-            setIsSpeaking(false);
-        } else {
-            const utterance = new SpeechSynthesisUtterance(textToSpeak);
-            const langMap = {'English': 'en-US', 'Kannada': 'kn-IN', 'Tulu': 'en-IN'};
-            utterance.lang = langMap[language] || 'en-US';
-            utterance.onend = () => setIsSpeaking(false);
-            window.speechSynthesis.speak(utterance);
-            setIsSpeaking(true);
-        }
-    };
-    
-    useEffect(() => {
-        return () => window.speechSynthesis.cancel();
-    }, []);
+    try {
+      const response = await fetch("http://127.0.0.1:8000/chat", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          message: messageToSend,
+          response_language: i18n.language,
+          conversation_context: context,
+        }),
+      });
+      const data = await response.json();
+      setMessages((prev) => [...prev, { sender: "bot", text: data.reply }]);
+      if (data.conversation_context) {
+        setContext(data.conversation_context);
+      }
+    } catch (error) {
+      console.error("Error fetching chat response:", error);
+      setMessages((prev) => [
+        ...prev,
+        {
+          sender: "bot",
+          text: "Sorry, I have trouble connecting to the server.",
+        },
+      ]);
+    }
+  };
 
-    // NEW: Function to start/stop listening for voice input
-    const toggleListen = () => {
-        if (!recognition) {
-            alert("Sorry, your browser does not support voice recognition.");
-            return;
-        }
-        if (isListening) {
-            recognition.stop();
-        } else {
-            recognition.start();
-        }
-    };
+  const handleMicClick = () => {
+    if (listening) {
+      SpeechRecognition.stopListening();
+    } else {
+      resetTranscript();
+      SpeechRecognition.startListening({
+        continuous: true,
+        language: i18n.language,
+      });
+    }
+  };
 
-    // NEW: useEffect hook to handle events from the SpeechRecognition API
-    useEffect(() => {
-        if (!recognition) return;
+  if (!browserSupportsSpeechRecognition) {
+    return <span>Browser doesn't support speech recognition.</span>;
+  }
 
-        recognition.onstart = () => setIsListening(true);
-        recognition.onend = () => setIsListening(false);
-        recognition.onerror = (event) => {
-            console.error("Speech recognition error", event.error);
-            setIsListening(false);
-        };
-        
-        // When the browser successfully transcribes speech to text
-        recognition.onresult = (event) => {
-            const transcript = event.results[0][0].transcript;
-            setInput(transcript); // Set the input field with the spoken text
-        };
-    }, []);
-
-
-    const handleSend = async () => {
-        if (!input.trim()) return;
-        const userMessage = { sender: 'user', text: input };
-        setMessages(prev => [...prev, userMessage]);
-        const currentInput = input;
-        setInput('');
-
-        try {
-            const response = await axios.post(`${API_URL}/chat`, {
-                message: currentInput,
-                response_language: language,
-                conversation_context: conversationContext
-            });
-            const botResponse = { sender: 'bot', text: response.data.reply, canSpeak: true };
-            setMessages(prev => [...prev, botResponse]);
-            setConversationContext(response.data.conversation_context);
-        } catch (error) {
-            console.error("Error sending message:", error);
-            const errorResponse = { sender: 'bot', text: 'Sorry, something went wrong.' };
-            setMessages(prev => [...prev, errorResponse]);
-        }
-    };
-
-    return (
-        <div className="chatbot-container embedded">
-            <div className="language-selector">
-                <select value={language} onChange={(e) => setLanguage(e.target.value)}>
-                    <option value="English">English</option>
-                    <option value="Kannada">Kannada</option>
-                    <option value="Tulu">Tulu</option>
-                </select>
-            </div>
-            <div className="chat-window">
-                {messages.map((msg, index) => (
-                    <div key={index} className={`message ${msg.sender}`}>
-                        <p>{msg.text}</p>
-                        {msg.sender === 'bot' && msg.canSpeak && (
-                            <button onClick={() => toggleSpeech(msg.text)} className="speak-button">
-                                {isSpeaking ? '⏹️' : '🔊'}
-                            </button>
-                        )}
-                    </div>
-                ))}
-                <div ref={messagesEndRef} />
-            </div>
-            <div className="chat-input">
-                <input
-                    type="text"
-                    value={input}
-                    onChange={(e) => setInput(e.target.value)}
-                    onKeyPress={(e) => e.key === 'Enter' && handleSend()}
-                    placeholder="Type or click the mic..."
-                />
-                {/* This is the new voice input button */}
-                <button onClick={toggleListen} className={isListening ? 'listening' : ''}>
-                    🎤
-                </button>
-                <button onClick={handleSend}>➤</button>
-            </div>
-        </div>
-    );
-}
+  return (
+    <div className="chat-container">
+      <div className="chat-messages">
+        {messages.map((msg, index) => (
+          <div key={index} className={`message ${msg.sender}`}>
+            <p>{msg.text}</p>
+          </div>
+        ))}
+        <div ref={messagesEndRef} />
+      </div>
+      <form className="chat-input-form" onSubmit={handleSendMessage}>
+        <input
+          type="text"
+          value={userInput}
+          onChange={(e) => setUserInput(e.target.value)}
+          placeholder={t("Type your message")}
+        />
+        <button
+          type="button"
+          onClick={handleMicClick}
+          className={`mic-button ${listening ? "listening" : ""}`}
+        >
+          🎤
+        </button>
+        <button type="submit">▶</button>
+      </form>
+    </div>
+  );
+};
 
 export default Chatbot;
