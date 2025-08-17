@@ -41,6 +41,8 @@ const resources = {
       Sweet: "Sweet",
       "Tea-time": "Tea-time",
       "Tea-time Snack": "Tea-time Snack",
+      "Buy ingredients message":
+        "Don't have all the ingredients? Buy them now!",
     },
   },
   kannada: {
@@ -82,6 +84,7 @@ const resources = {
       Sweet: "ಸಿಹಿ",
       "Tea-time": "ಟೀ-ಟೈಮ್",
       "Tea-time Snack": "ಟೀ-ಟೈಮ್ ತಿಂಡಿ",
+      "Buy ingredients message": "ಎಲ್ಲಾ ಪದಾರ್ಥಗಳು ಇಲ್ಲವೇ? ಈಗಲೇ ಖರೀದಿಸಿ!",
     },
   },
   tulu: {
@@ -123,6 +126,7 @@ const resources = {
       Sweet: "ಬಾಯ್ ಬೊಲ್ಪು",
       "Tea-time": "ಚಾತ್ತ ಪೊರ್ತು",
       "Tea-time Snack": "ಚಾತ್ತ ಪೊರ್ತುದ ತಿಂಡಿ",
+      "Buy ingredients message": "ಮಾತಾ ಸಾಮಾನ್ ಇಜ್ಜೆನಾ? ಇತ್ತೆನೇ ಖರೀದಿ ಮಲ್ಪುಲೆ!",
     },
   },
 };

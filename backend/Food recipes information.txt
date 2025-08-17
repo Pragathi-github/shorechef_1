@@ -21,14 +21,13 @@ Instructions:
 4. Cook without flipping. Serve hot with chutney.
 
 Nutrition: 
-Calories: 140kcal 
-Carbohydrates: 28g  
-Protein: 3g  
-Fat: 1g 
-Saturated Fat: 0g 
-Sodium: 250mg 
-Fiber: 1g 
-
+- Calories: 140kcal 
+- Carbohydrates: 28g  
+- Protein: 3g  
+- Fat: 1g 
+- Saturated Fat: 0g 
+- Sodium: 250mg 
+- Fiber: 1g 
 
 Tags: light, breakfast, traditional, quick
 ---------------------------------------------
@@ -579,7 +578,7 @@ Instructions:
 Tags: steamed sweet, jaggery, turmeric leaf, festive, traditional, coastal, gluten-free
 ---------------------------------------------
 Recipe Title: Boiled Rice
-ImageURL: 
+ImageURL:https://www.yummytummyaarthi.com/wp-content/uploads/2022/08/matta-rice-1.jpeg
 YouTubeURL: 
 Region: Udupi
 Category: Lunch
@@ -603,7 +602,7 @@ Instructions:
 Tags: staple, lunch, traditional, healthy
 ----------------------------------------------
 Recipe Title: Odupale (Odu Dosa / Kappa Rotti)
-ImageURL: 
+ImageURL: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEic4sDR6a1XU6P6GqBfV-5KFy5i5KeHElb7Stt6vqVaJekFO5gEhjPuSp9TN9rJAXVqZHJ0avHRnJASGuKjJqqFcb-gSuq5XzdH7VgGebKY8KicgtxfGiAuCx0SXPK8k066wMqPEZC89gmY/s320/IMG_20181026_075306.jpg
 YouTubeURL: 
 Region: Tulu Nadu (Mangalore)
 Category: Breakfast
@@ -632,7 +631,7 @@ Instructions:
 Tags: traditional, breakfast, fermented, earthenware, coastal
 ---------------------------------------------------------
 Recipe Title: Holige
-ImageURL: 
+ImageURL:https://www.babsprojects.com/wp-content/uploads/2022/03/holige-close-up.jpg
 YouTubeURL: 
 Region: Tulu Nadu (Coastal Karnataka)
 Category: Dessert / Festival Sweet
@@ -687,7 +686,7 @@ Step 5: Serve
 Tags: traditional, sweet, festival, coconut, jaggery, coastal
 ------------------------------------------------------
 Recipe Title: Yetti Chutney (Dry Prawn Chutney)
-ImageURL: 
+ImageURL: https://homechefscooking.wordpress.com/wp-content/uploads/2020/10/filmora-4.png?w=1024
 YouTubeURL: 
 Region: Karavali (Coastal Karnataka)
 Category: Side Dish / Chutney
@@ -735,7 +734,7 @@ Serve:Best served with neer dosa, boiled rice, or ragi rotti.
 Tags:spicy, seafood, chutney, traditional, coastal, non-vegetarian, dry prawns
 ---------------------------------------------
 Recipe Title: Basale Pundi (Malabar Spinach Rice Dumplings)
-ImageURL: 
+ImageURL:https://www.bruitemagazine.com/wp-content/uploads/2024/11/9-Smruthi-Shashi-Basale-Pundi-Post-Cover-1160x653.png
 YouTubeURL: 
 Region: Karavali (Mangalore/Udupi)
 Category: Breakfast / Snack
@@ -781,7 +780,7 @@ Serve:Best served hot with chutney or a mild curry like basale koddel, tovve, or
 Tags:healthy, spinach, breakfast, traditional, gluten-free, vegetarian, coastal
 --------------------------------------------------
 Recipe Title: Kori Sukka (Mangalorean Chicken Sukka)
-ImageURL: 
+ImageURL:https://anuthefoodicon.food.blog/wp-content/uploads/2022/03/img_20220313_102001-4.jpg
 YouTubeURL: 
 Region: Mangalore (Karavali, Coastal Karnataka)
 Category: Main Course
@@ -837,7 +836,7 @@ Serve:Serve hot with neer dosa, pundi, rotti, or even plain rice and dal.
 Tags:spicy, dry chicken, traditional, coastal, gluten-free, non-vegetarian, festive
 -------------------------------------------------------------
 Recipe Title: Chicken Pulimunchi
-ImageURL: 
+ImageURL:https://www.indidiet.com/wp-content/uploads/2018/02/IMG_20180218_1144132-scaled.jpg
 YouTubeURL: 
 Region: Karavali (Mangalore, Coastal Karnataka)
 Category: Main Course
@@ -899,7 +898,7 @@ Tags:spicy, tangy, traditional, coastal, mangalorean, chicken curry, gluten-free
 
 ---------------------------------------
 Recipe Title: Sun-Dried Mango Mambala
-ImageURL: 
+ImageURL: https://s3-ap-south-1.amazonaws.com/betterbutterbucket-silver/akshatha-mahesh20180705152806434.jpeg
 YouTubeURL: 
 Region: Karavali (Mangalore / Udupi)
 Category: Preserve / Snack / Dessert
@@ -949,7 +948,7 @@ Serve with moode, pundi, or even chapati
 Tags:mango preserve, sun-dried, summer recipe, vegan, traditional, coastal, gluten-free, homemade sweet
 -----------------------------------------
 Recipe Title: Chigate Soppu Curry (Tajank Soppu Curry)
-ImageURL: 
+ImageURL: https://i.ytimg.com/vi/X24T2YkmWy4/mqdefault.jpg
 YouTubeURL: 
 Region: Karavali (Mangalore / Udupi)
 Category: Main Dish
@@ -1001,7 +1000,7 @@ Serve With:Rice, Neer Dosa, Chapati, or Pundi.
 Tags:Tajank Soppu, Chigate Soppu, Senna tora, Karavali, traditional, healthy greens, vegetarian, coconut curry, coastal food
 ------------------------------------------------------------
 Recipe Title: Ambode (Urad Dal Vada)
-ImageURL: 
+ImageURL: https://deliciouslyindian.net/wp-content/uploads/2022/01/IMG_9670-scaled.jpg
 YouTubeURL: 
 Region: Karnataka
 Category: Evening Snack
@@ -1063,7 +1062,7 @@ Serve:Serve Ambode hot with the Ginger chutney.
 Tags:Snack, deep-fried, savory, crispy, traditional, vegetarian
 ------------------------------------------------------
 Recipe Title: Biscuit Rotti
-ImageURL: 
+ImageURL: https://www.ruchikrandhap.com/wp-content/uploads/2021/06/Biscuit-Rotti_3_1200x1800-1.jpeg
 YouTubeURL: 
 Region: Mangalore / Udupi (Coastal Karnataka)
 Category: Snack
@@ -1114,7 +1113,7 @@ Serve:Serve Biscuit Rotti hot with chutney or any side of your choice.
 Tags:Snack, fried, traditional, stuffed, vegetarian, Mangalore, Udupi
 ------------------------------------------------------
 Recipe Title: Immunity Boosting Herbal Kashayam
-ImageURL: 
+ImageURL: https://static.toiimg.com/thumb/88102697/88102697.jpg?height=746&width=420&resizemode=76&imgsize=69412
 YouTubeURL: 
 Region: Karnataka / Coastal India
 Category: Health Drink
@@ -1159,7 +1158,7 @@ Serve:Consume this herbal kashayam once every 2-3 days, especially during period
 Tags:Immunity booster, herbal drink, health, natural remedy, wellness, pandemic, protective
 -----------------------------------------------
 Recipe Title: Mangalore Style Sanjeera (Sweet Poori)
-ImageURL: 
+ImageURL: https://www.oneplateplease.com/wp-content/uploads/2020/08/Sanjeera-Post-1.jpg
 YouTubeURL: 
 Region: Mangalore
 Category: Tea-time Snack
@@ -1209,7 +1208,7 @@ Serve:Serve Mangalore Style Sanjeera hot as a tea-time snack.
 Tags:Sweet, snack, deep-fried, Mangalore, tea-time, traditional, vegetarian
 ---------------------------------------------
 Recipe Title: Mangalore Cucumber Instant Pickle (Sauthe Uppinakayi)
-ImageURL: 
+ImageURL: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJyzpw4d8mvS9j-_iqvALTtR4LweBErssHEiEINgOkQ5zYRusntg7-Nn8WGOSI-nvLrtA4Srg6WsytvkAFORXIXgKGm3nl0_upl9lW0o1XCtuxshagYMHSsCarD9_kFqiOiMtyZE7VOAhj/w1200-h630-p-k-no-nu/IMG_20170218_213945.jpg_Niu17jO0sb2Owr5a1zXSqYIdNzsTUbv2a
 YouTubeURL: 
 Region: Karavali (Mangalore/Udupi)
 Category: Pickle / Side Dish
@@ -1254,7 +1253,7 @@ You can lightly temper mustard seeds in coconut oil and add to the pickle for a 
 Tags:Instant pickle, Mangalore style, coastal Karnataka, vegetarian, no fermentation, easy recipe, wedding menu special
 ------------------------------------------------------------
 Recipe Title: Kadle Manoli
-ImageURL: 
+ImageURL: https://www.lathiskitchen.org/wp-content/uploads/2017/07/Lathiskitchen.org-41-1-768x1024.jpg
 YouTubeURL: 
 Region: Coastal Karnataka (Udupi / Mangaluru)
 Category: Side Dish / Main Dish
@@ -1293,7 +1292,7 @@ Instructions:
 Tags: temple-style, tulu, coconut masala, no onion garlic, vegetarian, traditional, gluten-free
 ------------------------------------------------------------
 Recipe Title: Avalakki Upkari
-ImageURL: 
+ImageURL: https://images.timesnownews.com/thumb/msid-116962778,thumbsize-1503485,width-1280,height-720,resizemode-75/116962778.jpg
 YouTubeURL: 
 Region: Coastal Karnataka (Udupi / Mangaluru)
 Category: Breakfast / Snack
@@ -1330,8 +1329,8 @@ Ingredients:
  Tags: light breakfast, quick snack, coconut, tulu, poha, gluten-free, no onion garlic
 ------------------------------------------------------------
 Recipe Title: Hesaru Bele Payasa
-ImageURL: 
-YouTubeURL: 
+ImageURL: https://foodofinterest.com/wp-content/uploads/2017/02/DSC_0075_00075-1024x685.jpg
+YouTubeURL: https://youtu.be/ZxRE7zSdVvY?si=HYRSukTOP6Vicizl
 Region: Coastal Karnataka / South India
 Category: Dessert / Sweet
 Cooking Time: 30 minutes
@@ -1358,11 +1357,22 @@ Instructions:
 5. Heat ghee in a small pan, fry cashews and raisins till golden, and add to the payasa.
 6. Serve warm or chilled.
   
+Nutrition:
+- Calories: 350kcal
+- Carbohydrates: 50g
+- Protein: 10g
+- Fat: 12g
+- Saturated Fat: 8g
+- Sodium: 40mg
+- Fiber: 4g
+- Sugar: 30g
+
+
  Tags: sweet, jaggery, coconut milk, festival, traditional, gluten-free, payasam
 ------------------------------------------------------------
 Recipe Title: Rava Upma
-ImageURL: 
-YouTubeURL: 
+ImageURL: https://pipingpotcurry.com/wp-content/uploads/2018/01/Rava-Upma-Instant-Pot-Pressure-Cooker.jpg
+YouTubeURL: https://youtu.be/tmqQCt0ONyA?si=RgFhXehMt8vMiapl
 Region: South India / Coastal Karnataka
 Category: Breakfast / Snack
 Cooking Time: 20 minutes
@@ -1397,11 +1407,21 @@ Instructions:
 8. Fluff with a spoon. Add lemon juice and garnish with coriander if desired.
 9. Serve hot with coconut chutney or pickle.
 
+Nutrition:
+- Calories: 300kcal
+- Carbohydrates: 55g
+- Protein: 8g
+- Fat: 5g
+- Saturated Fat: 1g
+- Sodium: 350mg
+- Fiber: 3g
+- Sugar: 2g
+
 Tags: upma, tiffin, quick breakfast, semolina, vegetarian, simple meal
 ------------------------------------------------------------
 Recipe Title: Chicken Uruval
-ImageURL: 
-YouTubeURL: 
+ImageURL: https://3.bp.blogspot.com/-s6CoWepN2-I/UwG1ldyVvCI/AAAAAAAABzE/DrqUQIIri0o/s1600/DSCN7202.JPG
+YouTubeURL: https://youtu.be/J77DGEL-KVY?si=MNT2a4Vj2YFAM9vx
 Region: Mangaluru, Coastal Karnataka
 Category: Main Dish / Dry Starter
 Cooking Time: 45 minutes
@@ -1435,11 +1455,22 @@ Instructions:
 6. Finish with a drizzle of ghee or coconut oil.
 7. Serve hot as a dry side or starter.
 
+Nutrition:
+- Calories: 430kcal
+- Carbohydrates: 10g
+- Protein: 35g
+- Fat: 28g
+- Saturated Fat: 10g
+- Cholesterol: 160mg
+- Sodium: 580mg
+- Fiber: 3g
+- Sugar: 4g
+
 Tags: spicy, dry fry, mangalorean chicken, coastal, gluten-free, tulu
 ------------------------------------------------------------
 Recipe Title: Semige
-ImageURL: 
-YouTubeURL: 
+ImageURL: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicDgkOMXVRwXDKpMShd-JBt86riUnYIcMkAJUD6nCYrci2iRhu5ROMYfZVj5OVcs9ve8tPSjEOX3W-mWRZ1vSsOOnx8d5IE0H2XmWGer5gFReUw7hOqjLsZ15t4Y5edoHI7Lp32ZGQetLi/s1600/20170515_115240.jpg
+YouTubeURL: https://youtu.be/CH_HGa5h1vo?si=2KQPOcsHm9N2YMNB
 Region: Coastal Karnataka (Tulu Nadu)
 Category: Breakfast / Light Meal
 Cooking Time: 45 minutes (excluding dough resting time)
@@ -1465,11 +1496,21 @@ Instructions:
 7. Steam in an idli steamer or cooker for 10–12 minutes.
 8. Serve hot with sweetened coconut milk, sambar, or chutney.
 
+Nutrition:
+- Calories: 250kcal
+- Carbohydrates: 50g
+- Protein: 5g
+- Fat: 3g
+- Saturated Fat: 2g
+- Sodium: 280mg
+- Fiber: 2g
+- Sugar: 1g
+
 Tags: tulu, steamed breakfast, rice noodles, traditional, gluten-free, idiyappam
 ------------------------------------------------------------
 Recipe Title: Kottige
-ImageURL: 
-YouTubeURL: 
+ImageURL: http://4.bp.blogspot.com/-TIcX9U4FsAo/Tgwa-yF7HCI/AAAAAAAAMN8/wYgB6udLvYs/s1600/Kottige+%25286%2529-1.jpg
+YouTubeURL: https://youtu.be/E8qlcbZb9lI?si=47Sqsvok59i9Wa-n
 Region: Coastal Karnataka
 Category: Sweet
 Cooking Time: 30 minutes
@@ -1494,11 +1535,21 @@ Instructions:
 4. Heat ghee in a pan and fry the balls until golden brown.
 5. Serve warm as a sweet snack or dessert.
 
+Nutrition:
+- Calories: 330kcal
+- Carbohydrates: 50g
+- Protein: 4g
+- Fat: 13g
+- Saturated Fat: 8g
+- Sodium: 60mg
+- Fiber: 2g
+- Sugar: 20g
+
 Tags: sweet, coastal, traditional, jaggery-based
 ------------------------------------------------------------
 Recipe Title: Mangalore Buns
-ImageURL: 
-YouTubeURL: 
+ImageURL: https://i.pinimg.com/originals/4e/6d/7a/4e6d7a4cd1182eb5915d15cece0fb51b.jpg
+YouTubeURL: https://youtu.be/vFuS4HRKI0A?si=yKz6TTjg7vGfv_k_
 Region: Mangaluru, Coastal Karnataka
 Category: Snack / Breakfast
 Cooking Time: 30 minutes
@@ -1530,11 +1581,22 @@ Instructions:
 8. Remove and drain on paper towels.
 9. Serve hot with coconut chutney or sambar.
 
+Nutrition:
+- Calories: 350kcal
+- Carbohydrates: 55g
+- Protein: 7g
+- Fat: 12g
+- Saturated Fat: 3g
+- Sodium: 300mg
+- Fiber: 2g
+- Sugar: 10g
+
+
 Tags: deep-fried, sweet, fluffy, breakfast, coastal, tulu
 ------------------------------------------------------------
 Recipe Title: Veg Sagu
-ImageURL: 
-YouTubeURL: 
+ImageURL: https://www.yummyfoodrecipes.com/resources/picture/org/Mixed-Vegetable-Sagu.jpg
+YouTubeURL: https://youtu.be/ylMfST6lfb0?si=RhOk1PGXQSj-Uhsc
 Region: Coastal Karnataka
 Category: Main Dish
 Cooking Time: 30 minutes
@@ -1572,11 +1634,22 @@ Instructions:
 8. Adjust consistency with water, if needed.
 9. Serve hot with roti, rice, or neer dosa.
 
+Nutrition:
+- Calories: 250kcal
+- Carbohydrates: 20g
+- Protein: 6g
+- Fat: 16g
+- Saturated Fat: 9g
+- Sodium: 400mg
+- Fiber: 7g
+- Sugar: 5g
+
+
 Tags: vegetable curry, sagu, coastal, vegetarian, curry
 ------------------------------------------------------------
 Recipe Title: Paneer Ghee Roast
-ImageURL: 
-YouTubeURL: 
+ImageURL: https://mytastycurry.com/wp-content/uploads/2020/03/paneer-ghee-roast-recipe.jpg
+YouTubeURL: https://youtu.be/B68DyfCnzUM?si=DuntwQw27OO7n4J6
 Region: Coastal Karnataka
 Category: Main Dish
 Cooking Time: 30 minutes
@@ -1613,11 +1686,22 @@ Instructions:
 9. Squeeze fresh lemon juice over the top and mix gently.
 10. Serve hot with roti, naan, or rice.
 
+Nutrition:
+- Calories: 420kcal
+- Carbohydrates: 15g
+- Protein: 20g
+- Fat: 32g
+- Saturated Fat: 18g
+- Cholesterol: 80mg
+- Sodium: 550mg
+- Fiber: 4g
+- Sugar: 6g
+
 Tags: paneer, ghee, roasted, vegetarian, coastal, spicy
 ------------------------------------------------------------
 Recipe Title: Gadbad
-ImageURL: 
-YouTubeURL: 
+ImageURL: https://www.ruchikrandhap.com/wp-content/uploads/2019/06/Gadbad-Ice-Cream.jpg
+YouTubeURL: https://youtu.be/LvyGMCRNnw8?si=k9w2mjH8YX6_Epuf
 Region: Mangaluru, Coastal Karnataka
 Category: Dessert
 Cooking Time: 10 minutes
@@ -1644,11 +1728,22 @@ Instructions:
 4. Garnish with roasted cashews, almonds, and a cherry on top.
 5. Serve immediately and enjoy this refreshing dessert!
 
+Nutrition:
+- Calories: 400kcal
+- Carbohydrates: 60g
+- Protein: 6g
+- Fat: 16g
+- Saturated Fat: 9g
+- Sodium: 120mg
+- Fiber: 2g
+- Sugar: 50g
+
+
 Tags: dessert, ice cream, tropical fruits, sweet, coastal
 ------------------------------------------------------------
 Recipe Title: Halbai
-ImageURL: 
-YouTubeURL: 
+ImageURL: https://smithakalluraya.com/wp-content/uploads/2014/01/halbai-recipe-1.jpg
+YouTubeURL: https://youtu.be/NeOZlTbSekA?si=-QLa35H52l1Jp6G5
 Region: Coastal Karnataka
 Category: Dessert
 Cooking Time: 30 minutes
@@ -1676,11 +1771,21 @@ Instructions:
 6. Let it cool and set for about 15–20 minutes.
 7. Cut into pieces and serve as a sweet treat.
 
+Nutrition:
+- Calories: 360kcal
+- Carbohydrates: 65g
+- Protein: 4g
+- Fat: 10g
+- Saturated Fat: 7g
+- Sodium: 80mg
+- Fiber: 3g
+- Sugar: 35g
+
 Tags: traditional sweet, rice flour, jaggery, coastal, dessert
 ------------------------------------------------------------
 Recipe Title: Gulla Bajji
-ImageURL: 
-YouTubeURL: 
+ImageURL: https://i0.wp.com/cookbookasha.com/wp-content/uploads/2021/10/20211007_195208.jpg?resize=1379%2C1536&ssl=1
+YouTubeURL: https://youtu.be/tyEskdFCZrQ?si=I_BUpS-HmlXbiZPR
 Region: Coastal Karnataka
 Category: Snack
 Cooking Time: 30 minutes
@@ -1711,11 +1816,22 @@ Instructions:
 7. Remove them from the oil and drain on paper towels to remove excess oil.
 8. Serve hot with coconut chutney or ketchup.
 
+Nutrition:
+- Calories: 280kcal
+- Carbohydrates: 25g
+- Protein: 8g
+- Fat: 16g
+- Saturated Fat: 3g
+- Sodium: 400mg
+- Fiber: 6g
+- Sugar: 2g
+
+
 Tags: deep-fried, crispy, brinjal, coastal, snack, vegetarian
 ------------------------------------------------------------
 Recipe Title: Potato Curry
-ImageURL: 
-YouTubeURL: 
+ImageURL: https://www.bowlofdelicious.com/wp-content/uploads/2023/01/Curry-Soup-Chickpeas-Potatoes-square.jpg
+YouTubeURL: https://youtu.be/XgprJowwkrM?si=aZLp-nDZafPTYOIk
 Region: Coastal Karnataka
 Category: Main Dish
 Cooking Time: 25 minutes
@@ -1749,11 +1865,21 @@ Instructions:
 7. Add garam masala and cook for another 2–3 minutes.
 8. Serve hot with rice, roti, or paratha.
 
+Nutrition:
+- Calories: 220kcal
+- Carbohydrates: 30g
+- Protein: 5g
+- Fat: 9g
+- Saturated Fat: 1g
+- Sodium: 380mg
+- Fiber: 4g
+- Sugar: 5g
+
 Tags: vegetarian, curry, potatoes, coastal, simple, main dish
 ------------------------------------------------------------
 Recipe Title: Idli Sambar
-ImageURL: 
-YouTubeURL: 
+ImageURL: https://img.freepik.com/premium-photo/idly-sambar-idli-with-sambhar-green-red-chutney-popular-south-indian-breakfast_466689-29523.jpg?w=2000
+YouTubeURL: https://youtu.be/-tAjKMcyUf4?si=InN6tThDzITqF2jp
 Region: South India / Coastal Karnataka
 Category: Breakfast / Main Dish
 Cooking Time: 40 minutes (plus soaking and fermenting time)
@@ -1808,11 +1934,21 @@ Instructions for Sambar:
 7. Let the sambar simmer for 10–12 minutes, allowing the vegetables to cook through.
 8. Serve hot sambar with idlis.
 
+Nutrition:
+- Calories: 350kcal
+- Carbohydrates: 60g
+- Protein: 15g
+- Fat: 5g
+- Saturated Fat: 1g
+- Sodium: 500mg
+- Fiber: 10g
+- Sugar: 8g
+
 Tags: breakfast, sambar, idli, gluten-free, vegetarian, south indian
 ------------------------------------------------------------
 Recipe Title: Bitter Gourd Stir Fry
-ImageURL: 
-YouTubeURL: 
+ImageURL: https://i.pinimg.com/originals/ca/be/b5/cabeb5113f77bdc0ae8a26779871622c.jpg
+YouTubeURL: https://youtu.be/cmqPQIRXSK8?si=4p4FhXJE-z9mS5A4
 Region: Coastal Karnataka
 Category: Side Dish
 Cooking Time: 20 minutes
@@ -1847,11 +1983,21 @@ Instructions:
 8. Optionally, add a pinch of jaggery to balance the bitterness.
 9. Serve hot as a side dish with rice or roti.
 
+Nutrition:
+- Calories: 150kcal
+- Carbohydrates: 12g
+- Protein: 3g
+- Fat: 10g
+- Saturated Fat: 1.5g
+- Sodium: 350mg
+- Fiber: 5g
+- Sugar: 3g
+
 Tags: bitter gourd, stir fry, vegetarian, coastal, healthy
 ------------------------------------------------------------
 Recipe Title: Banana Rasayana
-ImageURL: 
-YouTubeURL: 
+ImageURL: https://www.cookwithkushi.com/wp-content/uploads/2021/12/IMG_6921d-768x984.jpg
+YouTubeURL: https://youtu.be/EfdWuX86N2o?si=KhOnHGRUHh_KNQWw
 Region: Coastal Karnataka
 Category: Dessert
 Cooking Time: 10 minutes
@@ -1879,6 +2025,16 @@ Instructions:
 6. Optionally, heat a little ghee in a pan and fry the cashews and almonds until golden. Add them to the rasayana for extra flavor and crunch.
 7. Add saffron strands for a nice color and fragrance (optional).
 8. Serve chilled or at room temperature as a refreshing dessert.
+
+Nutrition:
+- Calories: 280kcal
+- Carbohydrates: 40g
+- Protein: 4g
+- Fat: 12g
+- Saturated Fat: 8g
+- Sodium: 25mg
+- Fiber: 4g
+- Sugar: 25g
 
 Tags: dessert, banana, coconut, rasayana, coastal, vegetarian
 ------------------------------------------------------------

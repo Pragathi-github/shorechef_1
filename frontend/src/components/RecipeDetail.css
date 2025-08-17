@@ -49,3 +49,36 @@
   font-size: 16px;
   line-height: 1.7;
 }
+
+/* ADD THESE STYLES AT THE END of RecipeDetail.css */
+
+/* ADD THESE NEW STYLES to RecipeDetail.css */
+
+.buy-section {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid #eee;
+  text-align: center;
+}
+
+.buy-message {
+  margin: 0 0 12px 0;
+  color: var(--secondary-color, #4a4a4a);
+  font-size: 15px;
+}
+
+.buy-button {
+  background-color: #ff5722; /* Blinkit-like orange color */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.buy-button:hover {
+  background-color: #e64a19;
+}
